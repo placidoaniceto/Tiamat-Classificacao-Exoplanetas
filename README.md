@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="IMAGENS/brasao-tiamat.png" alt="Brasão dos Observadores de Lumi — Ad Astra Ad Infinitum" width="250">
+  <img src="IMAGENS/brasão p tiamat.png" alt="Brasão dos Observadores de Lumi — Ad Astra Ad Infinitum" width="250">
 </p>
 
 <h1 align="center">Tiamat — Classificação de Candidatos a Exoplanetas</h1>
