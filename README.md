@@ -56,25 +56,7 @@ O F1 macro atribui o mesmo peso ao F1 de cada classe. Também são calculados ac
 
 As 100 tentativas são executadas sequencialmente em cada estudo. `N_JOBS = 2` limita o paralelismo interno em operações compatíveis. O código verifica se houve pelo menos 100 tentativas concluídas e 100 configurações distintas; essa verificação interrompe a execução se a condição não for atendida, sem gerar tentativas extras automaticamente.
 
-## Como executar
 
-É necessário um ambiente Python com acesso a notebooks Jupyter. As dependências podem ser instaladas com:
-
-```bash
-python -m pip install numpy pandas matplotlib scikit-learn optuna threadpoolctl ipython jupyterlab
-```
-
-A célula inicial de instalação está comentada e menciona `requirements.txt`. Esse arquivo não acompanha esta entrega; o comando acima lista as dependências diretamente. A instalação sem versões fixadas pode produzir um ambiente diferente daquele das saídas salvas.
-
-Abra um terminal na pasta do projeto e execute:
-
-```bash
-jupyter lab
-```
-
-Abra `Tiamat_Exoplanetas.ipynb` e execute as células em ordem. As pastas `dados/` e `resultados/` são criadas em `Path.cwd()`, isto é, no diretório de trabalho do kernel.
-
-As saídas preservadas registram Python 3.12.14, NumPy 2.3.5, pandas 2.2.3, scikit-learn 1.8.0 e Optuna 4.5.0. São registros da execução existente, não uma declaração de compatibilidade com todas as versões atuais. O metadado do kernel informa Python 3.13.7; a tabela produzida durante a execução é o registro utilizado aqui para descrever o ambiente das saídas.
 
 ## Resultados já registrados
 
